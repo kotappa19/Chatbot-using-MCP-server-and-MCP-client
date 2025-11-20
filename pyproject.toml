@@ -1,5 +1,5 @@
 [project]
-name = "mcp"
+name = "mcp-weather"
 version = "0.1.0"
 description = "MCP Server and Client for Weather API"
 readme = "README.md"
