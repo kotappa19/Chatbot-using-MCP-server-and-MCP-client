@@ -24,8 +24,17 @@ uv sync
 ANTHROPIC_API_KEY=your_key_here
 ```
 
-3. Run the client:
+## Running
+
+1. Start the server first:
 ```bash
-python client.py
+uv run server.py
 ```
+
+2. In a separate terminal, run the client:
+```bash
+uv run client.py
+```
+
+The client will automatically connect to `server.py` in the same directory.
 
